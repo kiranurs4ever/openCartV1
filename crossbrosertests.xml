@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart Test Suite" thread-count="2" parallel="test">
+
+	<test name=" Firefox OpenCart Tests">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegidtration"/>
+		</classes>
+	
+	</test>
+	
+	<test name="chrome OpenCart Tests">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegidtration"/>
+		</classes>
+	
+	</test>
+
+</suite>
